@@ -16,7 +16,9 @@ public class AmazonLogin extends Hook
 	  signin.click();
 	  uid.sendKeys("paragguide@yahoo.co.in");
 	  ctnbtn.click();
-	     try {
+	  
+	  System.out.println("ttttttt");
+	  try {
 	 test.log(LogStatus.ERROR, err1.getText());
 	 Assert.fail("userid is wrong..");
 	     }
